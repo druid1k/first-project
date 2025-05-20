@@ -68,3 +68,12 @@ $ git push -u origin main # Если команда приведёт к ошиб
 						  
 Следующие пуши:
 $ git push 
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
